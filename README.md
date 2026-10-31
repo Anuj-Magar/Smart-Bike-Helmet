@@ -41,7 +41,7 @@ After detecting an accident, the ESP32 reads GPS coordinates and sends an emerge
 1. The ESP32 initializes the MPU6050 sensor and GPS module.
 2. The MPU6050 continuously measures acceleration.
 3. The ESP32 calculates the total acceleration.
-4. If the acceleration exceeds the configured threshold of 2.5 g, a potential accident is detected.
+4. If the acceleration exceeds the configured threshold of 2g, a potential accident is detected.
 5. The system reads the GPS coordinates.
 6. An emergency SMS containing a Google Maps location link is sent through the SMS API over Wi-Fi.
 
@@ -83,3 +83,20 @@ SMART_BIKE_HELMET/
 **Anuj Magar**
 
 GitHub: [Anuj-Magar](https://github.com/Anuj-Magar)
+## Project Gallery
+
+### 1. Smart Bike Helmet Concept
+
+![Smart Bike Helmet Concept](images/helmet-concept.jpeg)
+
+### 2. Physical Prototype
+
+![Smart Bike Helmet Prototype](images/physical-prototype.jpeg)
+
+### 3. Hardware Connections
+
+![Hardware Connections](images/helmet-connections.jpeg)
+
+### 4. System Block Diagram
+
+![System Block Diagram](images/block-diag.jpeg)
